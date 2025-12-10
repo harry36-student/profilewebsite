@@ -66,9 +66,7 @@ function App() {
                   <span className="px-3 py-1 bg-gray-100 text-gray-600 rounded-lg text-sm">Node.js</span>
                 </div>
               </div>
-              <div className="md:order-1">
-                <img src="https://via.placeholder.com/500x500" alt="Certificate" className="w-full rounded-2xl" />
-              </div>
+
             </div>
           </div>
         </section>
@@ -120,6 +118,9 @@ function App() {
                 </p>
                 <div className="flex gap-2">
                   <span className="px-3 py-1 bg-gray-100 text-gray-600 rounded-lg text-sm">Node.js</span>
+                </div>
+                <div className="md:order-1">
+                  <img src="https://via.placeholder.com/500x500" alt="Certificate" className="w-full rounded-2xl" />
                 </div>
               </div>
             </div>
