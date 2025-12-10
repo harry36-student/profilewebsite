@@ -17,8 +17,8 @@ const Navbar = () => {
                     <div className="hidden md:block">
                         <div className="ml-10 flex items-baseline space-x-8">
                             <a href="#home" className="text-gray-700 hover:text-primary font-medium transition-colors">Home</a>
-                            <a href="#about" className="text-gray-700 hover:text-primary font-medium transition-colors">About</a>
-                            <a href="#projects" className="text-gray-700 hover:text-primary font-medium transition-colors">Projects</a>
+                            <a href="#About" className="text-gray-700 hover:text-primary font-medium transition-colors">About</a>
+                            <a href="#Projects" className="text-gray-700 hover:text-primary font-medium transition-colors">Projects</a>
                         </div>
                     </div>
 
@@ -36,8 +36,8 @@ const Navbar = () => {
                 <div className="md:hidden bg-white border-t">
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                         <a href="#home" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50" onClick={() => setIsOpen(false)}>Home</a>
-                        <a href="#about" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50" onClick={() => setIsOpen(false)}>About</a>
-                        <a href="#projects" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50" onClick={() => setIsOpen(false)}>Projects</a>
+                        <a href="#About" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50" onClick={() => setIsOpen(false)}>About</a>
+                        <a href="#Projects" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50" onClick={() => setIsOpen(false)}>Projects</a>
                     </div>
                 </div>
             )}

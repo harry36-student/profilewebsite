@@ -38,11 +38,11 @@ function App() {
               Creating vibrant implementation from nothing.
             </p>
             <div className="flex gap-4 justify-center">
-              <a href="#projects" className="px-8 py-3 bg-primary text-white rounded-full font-semibold shadow-lg shadow-primary/30 hover:shadow-primary/50 hover:-translate-y-1 transition-all">
-                View Work
+              <a href="#Projects" className="px-8 py-3 bg-primary text-white rounded-full font-semibold shadow-lg shadow-primary/30 hover:shadow-primary/50 hover:-translate-y-1 transition-all">
+                Projects
               </a>
               <a href="#About" className="px-8 py-3 bg-white text-dark border border-gray-200 rounded-full font-semibold hover:bg-gray-50 transition-all">
-                Contact Me
+                About
               </a>
             </div>
           </div>
@@ -61,6 +61,8 @@ function App() {
                   department: Computer Science
                   <br />
                   school: National Quemoy University
+                  <br />
+                  email: yuhome31@gmail.com
                 </p>
                 <div className="flex gap-2">
                   <span className="px-3 py-1 bg-gray-100 text-gray-600 rounded-lg text-sm">Node.js</span>
