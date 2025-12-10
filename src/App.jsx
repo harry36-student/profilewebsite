@@ -31,7 +31,7 @@ function App() {
               Welcome to my portfolio
             </span>
             <h1 className="text-6xl md:text-8xl font-black text-dark mb-8 tracking-tight">
-              資工<span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">碩二</span>
+              Computer Science<span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"> Master's student</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
               Exploring the frontiers of technology and design.
@@ -41,24 +41,24 @@ function App() {
               <a href="#projects" className="px-8 py-3 bg-primary text-white rounded-full font-semibold shadow-lg shadow-primary/30 hover:shadow-primary/50 hover:-translate-y-1 transition-all">
                 View Work
               </a>
-              <a href="#about" className="px-8 py-3 bg-white text-dark border border-gray-200 rounded-full font-semibold hover:bg-gray-50 transition-all">
+              <a href="#About" className="px-8 py-3 bg-white text-dark border border-gray-200 rounded-full font-semibold hover:bg-gray-50 transition-all">
                 Contact Me
               </a>
             </div>
           </div>
         </section>
         {/* about section */}
-        <section id="about" className="py-24">
+        <section id="About" className="py-24">
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="md:order-2">
-                <h3 className="text-2xl font-bold text-dark mb-3">about</h3>
+                <h3 className="text-2xl font-bold text-dark mb-3">About</h3>
                 <p className="text-gray-500 mb-6">
                   name: Yung-Yu,Chang
                   <br />
-                  education: 碩二資工
+                  education: Master's student in Computer Science
                   <br />
-                  department: 資工系
+                  department: Computer Science
                   <br />
                   school: National Quemoy University
                 </p>
@@ -71,7 +71,7 @@ function App() {
           </div>
         </section>
         {/* Projects Section */}
-        <section id="projects" className="py-24">
+        <section id="Projects" className="py-24">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-dark mb-4">Featured Projects</h2>
@@ -93,7 +93,7 @@ function App() {
                 </div>
 
                 <h3 className="text-2xl font-bold text-dark mb-3 group-hover:text-accent transition-colors">
-                  作业中 (Working)
+                  作業中 (Working)
                 </h3>
                 <p className="text-gray-500 mb-6 leading-relaxed">
                   Currently developing a new personalized web experience. Stay tuned for the upcoming release.
@@ -119,10 +119,16 @@ function App() {
                 <div className="flex gap-2">
                   <span className="px-3 py-1 bg-gray-100 text-gray-600 rounded-lg text-sm">Node.js</span>
                 </div>
-                <div className="md:order-1">
-                  <img src="https://via.placeholder.com/500x500" alt="Certificate" className="w-full rounded-2xl" />
-                </div>
               </div>
+            </div>
+            <div className="md:order-1">
+              <img src="https://www.credly.com/badges/493f635d-f8ff-4c06-870c-1a4ce4991069/public_url?size=500x500" alt="Google Cloud Data Analytics badge" className="w-full rounded-2xl" />
+            </div>
+            <div className="md:order-2">
+              <img src="https://www.credly.com/badges/72ac0d44-0eb6-4cd3-9642-e9a4d413ba9c/public_url?size=500x500" alt="Securing MongoDB Atlas: Authentication & Authorization badge" className="w-full rounded-2xl" />
+            </div>
+            <div className="md:order-3">
+              <img src="https://www.credly.com/badges/1ea68b06-bde8-4329-aaa5-f477fa7699c2/public_url?size=500x500" alt="Building AI-Powered Search with MongoDB Vector Search badge" className="w-full rounded-2xl" />
             </div>
           </div>
         </section>
