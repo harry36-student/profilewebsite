@@ -47,7 +47,31 @@ function App() {
             </div>
           </div>
         </section>
-
+        {/* about section */}
+        <section id="about" className="py-24">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="md:order-2">
+                <h3 className="text-2xl font-bold text-dark mb-3">about</h3>
+                <p className="text-gray-500 mb-6">
+                  name: Yung-Yu,Chang
+                  <br />
+                  education: 碩二資工
+                  <br />
+                  department: 資工系
+                  <br />
+                  school: National Quemoy University
+                </p>
+                <div className="flex gap-2">
+                  <span className="px-3 py-1 bg-gray-100 text-gray-600 rounded-lg text-sm">Node.js</span>
+                </div>
+              </div>
+              <div className="md:order-1">
+                <img src="https://via.placeholder.com/500x500" alt="Certificate" className="w-full rounded-2xl" />
+              </div>
+            </div>
+          </div>
+        </section>
         {/* Projects Section */}
         <section id="projects" className="py-24">
           <div className="max-w-7xl mx-auto">
@@ -98,25 +122,6 @@ function App() {
                   <span className="px-3 py-1 bg-gray-100 text-gray-600 rounded-lg text-sm">Node.js</span>
                 </div>
               </div>
-              {/* about section */}
-              <section id="about" className="py-24">
-                <div className="max-w-7xl mx-auto">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div className="md:order-2">
-                      <h3 className="text-2xl font-bold text-dark mb-3">About Me</h3>
-                      <p className="text-gray-500 mb-6">
-                        I'm a passionate developer with a strong background in software engineering. With a keen eye for detail and a commitment to excellence, I strive to create innovative and user-friendly solutions.
-                      </p>
-                      <div className="flex gap-2">
-                        <span className="px-3 py-1 bg-gray-100 text-gray-600 rounded-lg text-sm">Node.js</span>
-                      </div>
-                    </div>
-                    <div className="md:order-1">
-                      <img src="https://via.placeholder.com/500x500" alt="About" className="w-full rounded-2xl" />
-                    </div>
-                  </div>
-                </div>
-              </section>
             </div>
           </div>
         </section>
